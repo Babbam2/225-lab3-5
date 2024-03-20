@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/babbam2'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Babbam2/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('babbam2-255')                                                         //<------change this
+        KUBECONFIG = credentials('babbam2-235')                                                         //<------change this
     }
 
     stages {
